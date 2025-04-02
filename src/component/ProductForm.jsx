@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Form, Input, InputNumber, Select, Switch } from "antd";
+import { Form, Input, InputNumber, Select, Switch, Button } from "antd";
 const { Option } = Select;
 
 const ProductForm = ({ mode, product, onSubmit }) => {
@@ -112,9 +112,9 @@ const ProductForm = ({ mode, product, onSubmit }) => {
 
       {mode !== "view" && (
         <Form.Item>
-          <button type="submit" className="button cursor-pointer">
+          <Button type="primary" className="mb-4">
             {mode === "add" ? "Add Product" : "Save Changes"}
-          </button>
+          </Button>
         </Form.Item>
       )}
     </Form>

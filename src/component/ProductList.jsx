@@ -20,7 +20,7 @@ const ProductList = () => {
   const [modalMode, setModalMode] = useState("add");
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize, setPageSize] = useState(5); // Default page size
+  const [pageSize, setPageSize] = useState(5);
 
   useEffect(() => {
     dispatch(fetchProducts({ page: currentPage, pageSize }));
