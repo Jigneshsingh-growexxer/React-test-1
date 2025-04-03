@@ -1,17 +1,6 @@
 {
   "products": [
     {
-      "title": "The Alchemist",
-      "description": "A novel by Paulo Coelho about self-discovery and following dreams.",
-      "category": "books",
-      "price": 15,
-      "rating": 4.3,
-      "stock": 20,
-      "brand": "HarperOne",
-      "isAvailable": true,
-      "id": "1"
-    },
-    {
       "id": "2",
       "title": "Wireless Mouse",
       "description": "Ergonomic wireless mouse with high precision sensor.",
@@ -192,6 +181,17 @@
       "isAvailable": true,
       "createAt": "2025-04-02T13:05:21.618Z",
       "updateAt": "2025-04-02T13:05:21.618Z"
+    },
+    {
+      "id": "67fc",
+      "title": "sample",
+      "description": "sample des",
+      "category": "electronics",
+      "price": 2,
+      "rating": 5,
+      "stock": 3,
+      "brand": "3",
+      "isAvailable": true
     }
   ]
 }

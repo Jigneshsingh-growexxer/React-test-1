@@ -112,7 +112,7 @@ const ProductForm = ({ mode, product, onSubmit }) => {
 
       {mode !== "view" && (
         <Form.Item>
-          <Button type="primary" className="mb-4">
+          <Button type="primary" htmlType="submit" className="mb-4">
             {mode === "add" ? "Add Product" : "Save Changes"}
           </Button>
         </Form.Item>
